@@ -47,7 +47,7 @@ const Index = () => {
     {
       icon: TrendingUp,
       title: "Trending Audio Discovery",
-      description: "Stay ahead of trends with our AI that identifies viral sounds and music before they peak, giving your content the edge it needs."
+      description: "Stay ahead of big trends with our AI that identifies viral sounds and music before they peak, giving your content the edge it needs."
     },
     {
       icon: Brain,
