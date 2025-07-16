@@ -74,7 +74,7 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-hero">
+      <section className="relative overflow-hidden bg-gradient-hero pb-20 pt-32 animate-fade-slide-in">
         <div className="container mx-auto px-4 py-16 lg:py-24 pt-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -83,9 +83,10 @@ const Index = () => {
                   <Sparkles className="w-4 h-4 animate-pulse" />
                   AI-Powered Marketing
                 </div>
-                <h1 className="text-4xl lg:text-6xl font-bold tracking-tight hover:tracking-wide transition-all duration-500">
-                  Take Your 
-                  <span className="bg-gradient-primary bg-clip-text text-transparent hover:scale-105 inline-block transition-transform duration-300"> Small Business</span> 
+                <h1 className="font-heading text-4xl lg:text-6xl font-bold tracking-tight hover:tracking-wide transition-all duration-500 animate-fade-slide-in">
+                  Take Your
+                  <br />
+                  <span className="bg-gradient-primary bg-clip-text text-transparent hover:scale-105 inline-block transition-transform duration-300">Small Business</span> 
                   {" "}to the Next Level
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">
@@ -132,10 +133,10 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 lg:py-24">
+      <section className="py-20 lg:py-28 animate-fade-slide-in">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4 mb-16 animate-fade-in">
-            <h2 className="text-3xl lg:text-5xl font-bold hover:tracking-wide transition-all duration-300">
+            <h2 className="font-heading text-3xl lg:text-5xl font-bold hover:tracking-wide transition-all duration-300 animate-fade-slide-in">
               Everything You Need to 
               <span className="bg-gradient-primary bg-clip-text text-transparent hover:scale-105 inline-block transition-transform duration-300 pl-2"> Succeed</span>
             </h2>
@@ -165,10 +166,10 @@ const Index = () => {
       </section>
 
       {/* CTA Section with Waitlist */}
-      <section id="waitlist-section" className="py-16 lg:py-24 bg-gradient-hero">
+      <section id="waitlist-section" className="py-20 lg:py-28 bg-gradient-hero animate-fade-slide-in">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-3xl lg:text-5xl font-bold">
+            <h2 className="font-heading text-3xl lg:text-5xl font-bold animate-fade-slide-in">
               Ready to Transform Your 
               <span className="bg-gradient-primary bg-clip-text text-transparent"> Social Media Marketing?</span>
             </h2>
@@ -215,12 +216,14 @@ const Index = () => {
               </div>
               
               <div className="flex items-center gap-4">
-                <Button variant="outline" size="sm" className="group hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 hover:rotate-1">
-                  <Mail className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                  Contact Us
+                <Button variant="outline" size="sm" className="group hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105 hover:rotate-1" asChild>
+                  <a href="mailto:shrubsdaone@gmail.com">
+                    <Mail className="w-4 h-4 mr-2 group-hover:animate-pulse" />
+                    Contact Us
+                  </a>
                 </Button>
                 <Button variant="outline" size="sm" className="group hover:bg-gradient-primary hover:text-primary-foreground border-primary/30 transition-all duration-300 hover:scale-105 hover:-rotate-1" asChild>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/postfulapp/" target="_blank" rel="noopener noreferrer">
                     <Instagram className="w-4 h-4 mr-2 group-hover:animate-pulse" />
                     Follow Us
                   </a>
